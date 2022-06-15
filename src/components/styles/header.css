@@ -30,10 +30,18 @@ header nav {
   color: rgba(0, 0, 255, 0.774);
 }
 
+.rocket-link:hover {
+  color: rgb(143, 165, 197);
+}
+
 .mission-link {
   padding-right: 15px;
   text-decoration: none;
   color: rgba(0, 0, 255, 0.774);
+}
+
+.mission-link:hover {
+  color: rgb(143, 165, 197);
 }
 
 .prof-link {
@@ -41,4 +49,8 @@ header nav {
   border-left: black 2px solid;
   text-decoration: none;
   color: rgba(0, 0, 255, 0.774);
+}
+
+.prof-link:hover {
+  color: rgb(143, 165, 197);
 }
