@@ -2,55 +2,33 @@ header {
   display: flex;
   border-bottom: rgba(0, 0, 0, 0.445) solid 2px;
   justify-content: space-between;
-  padding-bottom: 1rem;
+  padding: 0 5% 0 5%;
 }
 
-header div {
+.logo-div {
   display: flex;
 }
 
-header div h1 {
-  padding-left: 2rem;
-}
-
 .logo {
-  height: 5rem;
+  width: 8%;
+  height: 90%;
 }
 
-header nav {
-  align-items: center;
-  margin: auto 0;
-  font-size: 15px;
-  padding-right: 10rem;
+h1 {
+  margin-left: 2%;
 }
 
-.rocket-link {
-  padding-right: 30px;
-  text-decoration: none;
-  color: rgba(0, 0, 255, 0.774);
+nav {
+  width: 40%;
 }
 
-.rocket-link:hover {
-  color: rgb(143, 165, 197);
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
 }
 
-.mission-link {
-  padding-right: 15px;
-  text-decoration: none;
-  color: rgba(0, 0, 255, 0.774);
-}
-
-.mission-link:hover {
-  color: rgb(143, 165, 197);
-}
-
-.prof-link {
-  padding-left: 15px;
-  border-left: black 2px solid;
-  text-decoration: none;
-  color: rgba(0, 0, 255, 0.774);
-}
-
-.prof-link:hover {
-  color: rgb(143, 165, 197);
+.nav-link {
+  margin-left: 2%;
 }

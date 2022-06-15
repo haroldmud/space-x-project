@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Header from './header';
-import Rocket from './components/rocket';
-import Mission from './components/missions';
-import Profile from './components/profile';
+import Rocket from './components/Rocket';
+import Mission from './components/Missions';
+import Profile from './components/Profile';
+import Header from './components/Header';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,8 +12,8 @@ root.render(
     <Header />
     <Routes>
       <Route path="/" element={<Rocket />} />
-      <Route path="/Missions" element={<Mission />} />
-      <Route path="/Profile" element={<Profile />} />
+      <Route path="/components/Missions" element={<Mission />} />
+      <Route path="/components/Profile" element={<Profile />} />
     </Routes>
   </BrowserRouter>,
 );
