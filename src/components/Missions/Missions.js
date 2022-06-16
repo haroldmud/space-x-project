@@ -7,7 +7,7 @@ function Missions({ getMissions }) {
     getMissions();
   }, []);
 
-  
+  const MissionsDisplayed = useSelector((state) => state.MissionsReducer.newMissions); 
 
   const dispatch = useDispatch();
 
