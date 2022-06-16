@@ -36,6 +36,10 @@ export default function MissionsReducer(
         }
       });
 
+      const profileMissions = state.newMissions.filter(
+        (Mission) => Mission.reserved === true
+      );
+
       return { newMissions: state.newMissions, profileMissions };
     }
     default:
