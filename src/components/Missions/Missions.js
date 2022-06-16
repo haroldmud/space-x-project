@@ -15,9 +15,9 @@ function Missions({ getMissions }) {
     backgroundColor: 'transparent',
   };
 
-  const style2 = {
-    backgroundColor: '#D3D3D3',
-  };
+  // const style2 = {
+  //   backgroundColor: '#D3D3D3',
+  // };
 
   return (
     <table>
