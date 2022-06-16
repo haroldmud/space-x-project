@@ -1,11 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './rockets.css';
+import { useDispatch } from 'react-redux';
+import { toggleReserve } from '../../Redux/Rockets/Rockets';
 
 const Rocket = (props) => {
   const {
     rocketId, rocketName, rocketDescription, rocketImage, rocketReserved,
   } = props;
+
+  const dispatch = useDispatch();
+
+  const handleClick = () => {
+    dispatch(toggleReserve({ id: rocketId }));
+  };
+
   return (
     <div className="rocket-container" key={rocketId}>
       <div>
@@ -16,9 +25,17 @@ const Rocket = (props) => {
           {rocketName}
         </h2>
         <p>
+          {
+            rocketReserved
+              ? (
+                <span className="badge">Reserved</span>
+              ) : null
+}
           {rocketDescription}
         </p>
-        <button type="button" className="btn" id={rocketReserved}>Reserve Rocket</button>
+        <div>
+          {rocketReserved ? (<button type="button" onClick={handleClick} className="btn">Cancel Reservation</button>) : (<button type="button" className="btn" onClick={handleClick}>Reserve Rocket</button>)}
+        </div>
       </div>
     </div>
   );
