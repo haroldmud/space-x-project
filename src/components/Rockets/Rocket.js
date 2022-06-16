@@ -34,7 +34,7 @@ const Rocket = (props) => {
           {rocketDescription}
         </p>
         <div>
-          {rocketReserved ? (<button type="button" onClick={handleClick} className="btn">Cancel Reservation</button>) : (<button type="button" className="btn" onClick={handleClick}>Reserve Rocket</button>)}
+          {rocketReserved ? (<button type="button" onClick={handleClick} className="btn cancel">Cancel Reservation</button>) : (<button type="button" className="btn" onClick={handleClick}>Reserve Rocket</button>)}
         </div>
       </div>
     </div>
