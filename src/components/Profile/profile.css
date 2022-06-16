@@ -38,3 +38,16 @@
   font-size: 30px;
   font-weight: bold;
 }
+
+.missionItem {
+  font-weight: 900;
+  font-size: large;
+  list-style-type: none;
+  border: 1px solid grey;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 1rem;
+  padding: 2rem 10px;
+  border-radius: 4px;
+  width: 90%;
+}
