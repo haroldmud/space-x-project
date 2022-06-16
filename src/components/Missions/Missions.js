@@ -7,7 +7,7 @@ function Missions({ getMissions }) {
     getMissions();
   }, []);
 
-  const MissionsDisplayed = useSelector((state) => state.MissionsReducer.newMissions); 
+  const MissionsDisplayed = useSelector((state) => state.MissionsReducer.newMissions);
 
   const dispatch = useDispatch();
 
@@ -15,9 +15,7 @@ function Missions({ getMissions }) {
     backgroundColor: 'transparent',
   };
 
-  // const style2 = {
-  //   backgroundColor: '#D3D3D3',
-  // };
+
 
   return (
     <table>
