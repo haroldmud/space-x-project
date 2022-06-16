@@ -48,3 +48,12 @@ export default function MissionsReducer(
 }
 
 export const reserveMission = (Id) => ({ type: RESERVED_MISSIONS, Id });
+
+export function displayMissions() {
+  return (dispatch) => {
+    axios.get(MISSIONS_URL).then((response) => {
+      const newState = Object.entries(response.data);
+      dispatch({ type: GET_MISSIONS, newState });
+    });
+  };
+}
