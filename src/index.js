@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import Rocket from './components/Rockets/Rocket';
+import RocketList from './components/Rockets/RocketList';
 import Mission from './components/Missions/Missions';
 import Profile from './components/Profile/Profile';
 import Header from './components/Header/Header';
@@ -14,7 +14,7 @@ root.render(
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<Rocket />} />
+        <Route path="/" element={<RocketList />} />
         <Route path="/components/Missions/Missions" element={<Mission />} />
         <Route path="/components/Profile/Profile" element={<Profile />} />
       </Routes>

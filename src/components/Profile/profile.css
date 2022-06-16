@@ -2,17 +2,39 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0 15% 0 15%;
+  padding: 0 5% 0 5%;
 }
 
 .box {
   display: flex;
   flex-direction: column;
-  width: 35%;
+  width: 45%;
 }
 
 .container {
   height: 70vh;
   border: 3px solid grey;
   border-radius: 8px;
+}
+
+.no-rockets-reserved {
+  font-size: 20px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.reserved-item {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  border: 1px solid grey;
+  margin: 0 5% 10px -20px;
+  padding: 10px 0 10px 20px;
+  border-radius: 4px;
+}
+
+.rocket-name {
+  margin: 15px 0 0 30px;
+  font-size: 30px;
+  font-weight: bold;
 }
