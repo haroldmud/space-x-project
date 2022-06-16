@@ -11,7 +11,9 @@ function Missions({ getMissions }) {
 
   const dispatch = useDispatch();
 
-
+  const style1 = {
+    backgroundColor: 'transparent',
+  };
 
   const style2 = {
     backgroundColor: '#D3D3D3',
