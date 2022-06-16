@@ -20,7 +20,9 @@
       "import/no-unresolved": "off",
       "no-shadow": "off",
       "react/state-in-constructor":"off",
-      "react/no-unused-state":"off"
+      "react/no-unused-state":"off",
+      "no-param-reassign":"off",
+      "react/prop-types":"off"
     },
     "ignorePatterns": [
       "dist/",
