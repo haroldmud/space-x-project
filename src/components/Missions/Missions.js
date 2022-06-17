@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useSelector, connect, useDispatch } from 'react-redux';
 import { displayMissions, reserveMission } from '../../Redux/Missions/missions';
+import './Missions.css';
 
 function Missions({ getMissions }) {
   useEffect(() => {
