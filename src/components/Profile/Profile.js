@@ -1,10 +1,16 @@
-import React from 'react';
-import { useSelector } from 'react-redux';
+import React, { useEffect, useState } from 'react';
+import { useSelector, connect } from 'react-redux';
 import './profile.css';
 
-function Profile() {
+function Profile(props) {
   const rockets = useSelector((state) => state.rocketReducer);
   const reservedRockets = rockets.filter((rocket) => rocket.rocketReserved);
+
+  const [profileMissions, setProfileMissions] = useState([]);
+
+  useEffect(() => {
+    setProfileMissions(props.selectedRockets.MissionsReducer.profileMissions);
+  }, []);
 
   return (
     <div className="profile-container">
@@ -31,11 +37,15 @@ function Profile() {
       <div className="box missions">
         <h2 className="profile-title">Missions</h2>
         <div className="container">
-          {/* THE CONTENTS WILL BE DISPLAYED HERE */}
+          { profileMissions.map((mission) => (
+            <p className="missionItem" key={mission.Missions[0]}>{mission.Missions[1].mission_name}</p>
+          )) }
         </div>
       </div>
     </div>
   );
 }
 
-export default Profile;
+const mapStateToProps = (state) => ({ selectedRockets: state });
+
+export default connect(mapStateToProps)(Profile);

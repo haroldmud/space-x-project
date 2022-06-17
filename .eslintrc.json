@@ -22,7 +22,8 @@
       "react/state-in-constructor":"off",
       "react/no-unused-state":"off",
       "no-param-reassign":"off",
-      "react/prop-types":"off"
+      "react/prop-types":"off",
+      "react/destructuring-assignment":"off"
     },
     "ignorePatterns": [
       "dist/",
