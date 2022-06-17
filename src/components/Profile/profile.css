@@ -28,14 +28,14 @@
   flex-direction: row;
   list-style-type: none;
   border: 1px solid grey;
-  margin: 0 5% 15px -20px;
+  margin: 0 5% 10px -20px;
   padding: 10px 0 10px 20px;
   border-radius: 4px;
 }
 
 .rocket-name {
-  margin: 20px 0 0 30px;
-  font-size: 20px;
+  margin: 15px 0 0 30px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -45,8 +45,9 @@
   list-style-type: none;
   border: 1px solid grey;
   justify-content: center;
-  margin: 15px 20px 0 20px;
-  padding: 30px 0 32px 10px;
+  margin: 0 auto;
+  margin-top: 1rem;
+  padding: 2rem 10px;
   border-radius: 4px;
-  width: auto;
+  width: 90%;
 }
