@@ -3,9 +3,9 @@
 This is an app that retrieves data containing missions and rockets from spaceX API and allows the user to join the missions or book the rockets.
 
 ## Screenshot
-[Rockets](rockets.JPG)
-[Missions](missions.JPG)
-[Profile](profile.JPG)
+![Rockets](./rockets.JPG)
+![Missions](./missions.JPG)
+![Profile](./profile.JPG)
 ## Built with
 - React
 - Redux
