@@ -36,11 +36,14 @@ function Missions({ getMissions }) {
             <td className="th_desc">{mission.Missions[1].description}</td>
             <td className="th_button">
               {
-                mission.reserved ? (<span className="status1">Active member</span>) : (<span className="status2">Not a member</span>)
+                mission.reserved && (<span className="status1">Active member</span>)
+              }
+              {
+                !mission.reserved && (<span className="status2">Not a member</span>)
               }
             </td>
             <td>
-              {mission.reserved ? (
+              {mission.reserved && (
                 <button
                   className="button_Leave"
                   type="button"
@@ -48,7 +51,9 @@ function Missions({ getMissions }) {
                 >
                   Leave Mission
                 </button>
-              ) : (
+              )}
+
+              { !mission.reserved && (
                 <button
                   className="button_Join"
                   type="button"
