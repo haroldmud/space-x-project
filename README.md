@@ -1,7 +1,30 @@
-# Getting Started with Create React App
+# SPACE-X
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an app that retrieves data containing missions and rockets from spaceX API and allows the user to join the missions or book the rockets.
 
+## Screenshot
+[Rockets](rockets.JPG)
+[Missions](missions.JPG)
+[Profile](profile.JPG)
+## Built with
+- React
+- Redux
+- JSX
+- HTML5
+- CSS3
+- Webpack
+
+## Authors
+👤 **Author1**
+
+- GitHub: [@Christianib003](https://github.com/Christianib003)
+- LinkedIn: [@Christian Iradukunda Byiringiro](https://www.linkedin.com/in/christian-iradukunda)
+
+👤 **Author2**
+
+GitHub: [@haroldmud](https://hargithub.com/haroldmud)
+Twitter: [@mudosaharold](https://twitter.com/MudosaHarold)
+LinkedIn: [@haroldmudosa](https://www.linkedin.com/in/harold-mudosa-40124021b/)
 ## Available Scripts
 
 In the project directory, you can run:
@@ -68,3 +91,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Contributions
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/haroldmud/space-x-project/issues).
+
+## Acknowledgements
+This project was made according tot the microverse requirements with the use of spaceX API.
