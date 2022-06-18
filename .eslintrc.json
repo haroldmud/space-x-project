@@ -23,7 +23,9 @@
       "react/no-unused-state":"off",
       "no-param-reassign":"off",
       "react/prop-types":"off",
-      "react/destructuring-assignment":"off"
+      "react/destructuring-assignment":"off",
+      "no-unused-vars":"off",
+      "import/extensions":"off"
     },
     "ignorePatterns": [
       "dist/",
