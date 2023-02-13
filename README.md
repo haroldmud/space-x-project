@@ -17,11 +17,6 @@ This is an app that retrieves data containing missions and rockets from spaceX A
 ## Authors
 👤 **Author1**
 
-- GitHub: [@Christianib003](https://github.com/Christianib003)
-- LinkedIn: [@Christian Iradukunda Byiringiro](https://www.linkedin.com/in/christian-iradukunda)
-
-👤 **Author2**
-
 GitHub: [@haroldmud](https://hargithub.com/haroldmud)
 Twitter: [@mudosaharold](https://twitter.com/MudosaHarold)
 LinkedIn: [@haroldmudosa](https://www.linkedin.com/in/harold-mudosa-40124021b/)
